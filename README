@@ -4,14 +4,19 @@ $ ruby amida.rb 5
 
 A   B   C   D   E
 |   |---|   |   |
-|   |---|   |   |
+|---|   |---|   |
+|---|   |---|   |
 |---|   |   |   |
+|---|   |   |---|
+|   |---|   |   |
 |   |   |---|   |
 |---|   |   |   |
+|---|   |---|   |
 |   |   |   |---|
-|   |---|   |   |
-|   |   |---|   |
-|   |   |   |   |
-|---|   |   |   |
-|   |   |---|   |
-        !!!
+            !!!
+
+$ ruby numerals.rb 2001
+two thousand and one
+
+$ ruby numerals.rb 1999
+nineteen hundred and ninety-nine
